@@ -1,0 +1,30 @@
+parameter,value,unit,label,note
+week_start,2026-11-10,date,Assumed,Illustrative week (7 days)
+week_end,2026-11-16,date,Assumed,Illustrative week (7 days)
+pin_lat,26.25,deg N,Assumed,Illustrative point; not a scheme gate
+pin_lon,91.75,deg E,Assumed,Illustrative point; not a scheme gate
+command_area_ha,500,ha,Assumed,Illustrative command area; not a real scheme
+rice_area_ha,400,ha,Assumed,Rice share of the illustrative command area
+rice_plant_date,2026-07-01,date,Assumed,Transplanted; Day 1 = planting day
+rice_L_ini,30,days,Assumed,Initial stage length
+rice_L_dev,30,days,Assumed,Development stage length
+rice_L_mid,80,days,Assumed,Mid-season stage length
+rice_L_late,40,days,Assumed,Late-season stage length
+rice_Kc_ini,1.05,-,Estimated,Kc table value
+rice_Kc_mid,1.20,-,Estimated,Kc table value
+rice_Kc_end,0.90,-,Estimated,Kc table value
+mustard_area_ha,100,ha,Assumed,Mustard share of the illustrative command area
+mustard_plant_date,2026-10-20,date,Assumed,Sown; Day 1 = sowing day
+mustard_L_ini,20,days,Assumed,Initial stage length
+mustard_L_dev,25,days,Assumed,Development stage length
+mustard_L_mid,30,days,Assumed,Mid-season stage length
+mustard_L_late,20,days,Assumed,Late-season stage length
+mustard_Kc_ini,0.35,-,Estimated,Kc table value
+mustard_Kc_mid,1.10,-,Estimated,Kc table value
+mustard_Kc_end,0.35,-,Estimated,Kc table value
+Ea,0.70,-,Assumed,Field application efficiency
+Ec,0.75,-,Assumed,Conveyance efficiency
+ET0,data/*.json,mm/day,Estimated,Model output; read from local files only
+rain,data/*.json,mm/day,Estimated,Model output; negative values set to 0
+soil_store,,mm,Not scored,Soil water store not modelled
+bund_store,,mm,Not scored,Bund/field-ponding store not modelled
